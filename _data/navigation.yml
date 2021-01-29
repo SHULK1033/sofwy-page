@@ -1,0 +1,12 @@
+# specify main menu items here
+
+- text: Home
+  url: banner
+- text: Work
+  url: work
+- text: Testimonials
+  url: testimonials
+- text: About
+  url: about
+- text: Contact Us
+  url: contact

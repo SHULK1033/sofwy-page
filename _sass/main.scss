@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+// import scss files dont remove "normalize" !!
+@import 'partials/app', 'partials/fonts', 'partials/normalize';
+
+body {
+    // Define default font family for site override Roboto of MDB for Monserrate from google fonts
+    // see _fonts.scss for import others fonts
+    font-family: $base-font-family !important;
+}
+
+.post-container {
+    img {
+        width: 100%;
+    }
+
+    b,
+    strong {
+        font-weight: bold !important;
+    }
+}
