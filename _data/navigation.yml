@@ -2,11 +2,11 @@
 
 - text: Home
   url: banner
-- text: Work
+- text: Trabajos
   url: work
-- text: Testimonials
+- text: Testimonios
   url: testimonials
-- text: About
+- text: Nosotros
   url: about
-- text: Contact Us
+- text: Contáctanos
   url: contact
