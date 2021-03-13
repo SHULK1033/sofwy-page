@@ -1,6 +1,6 @@
 ---
 layout: home
-title: LCG
+title: Sofwy
 permalink: /
 section: home
 description: mi descripcion
