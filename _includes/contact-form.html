@@ -8,18 +8,18 @@
             </div>
             <div class="col-md-7 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10">
                 <div class="contact-form">
-                    <form role="form">
+                    <form role="form" novalidate id="contact-form">
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Correo" required>
                         </div>
                         <div class="col-md-12">
-                            <textarea class="form-control" placeholder="Message" rows="6"></textarea>
+                            <textarea class="form-control" id="message" placeholder="Message" rows="6"></textarea>
                         </div>
                         <div class="col-md-12 text-center">
-                            <button type="submit" class="contact-button">Enviar</button>
+                            <button id="send" type="submit" class="contact-button">Enviar</button>
                         </div>
                     </form>
                 </div>
